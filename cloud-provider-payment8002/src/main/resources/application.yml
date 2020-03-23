@@ -1,0 +1,33 @@
+server:
+  port: 8002
+
+spring:
+  application:
+    name: cloud-provider-payment
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/test1?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: 123
+    max-idle: 10
+    min-idle: 5
+    initial-size: 5
+      #mysql-connector-java 版本在6.0以上要用 com.mysql.cj.jdbc.Driver
+    driver-class-name: com.mysql.jdbc.Driver
+    max-wait: 10000
+
+mybatis:
+  mapperLocations: classpath:mapper/*.xml
+  type-aliases-package: com.sqc.cloud.entity
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/
+#      defaultZone: http://127.0.0.1:7001/eureka/
+  instance:
+    instance-id: payment8002
+    prefer-ip-address: true
+
+
