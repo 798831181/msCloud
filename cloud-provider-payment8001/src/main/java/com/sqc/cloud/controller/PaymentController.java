@@ -1,6 +1,5 @@
 package com.sqc.cloud.controller;
 
-import com.netflix.appinfo.InstanceInfo;
 import com.sqc.cloud.entity.CommonResult;
 import com.sqc.cloud.entity.Payment;
 import com.sqc.cloud.service.PaymentService;
@@ -12,6 +11,7 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 /**
  * @author sqc
@@ -62,8 +62,19 @@ public class PaymentController {
         }
         return this.discoveryClient;
     }
+
     @GetMapping(value = "/payment/lb")
-    public String getPaymentLb(){
+    public String getPaymentLb() {
         return port;
+    }
+
+    @GetMapping(value = "/payment/feign/timeout")
+    public String feignTimeout() {
+        try {
+            TimeUnit.SECONDS.sleep(3);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        return "测试成功，port: " + port;
     }
 }

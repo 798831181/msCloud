@@ -38,16 +38,17 @@ public class OrderController {
     public CommonResult<Payment> getPaymentById(@PathVariable(value = "id") Long id) {
         return restTemplate.getForObject(PAYMENT_URL + "/payment/get/" + id, CommonResult.class);
     }
+
     @GetMapping(value = "/consumer/payment/lb")
-    public CommonResult<String> getPaymentLB(){
+    public CommonResult<String> getPaymentLB() {
         List<ServiceInstance> instances = discoveryClient.getInstances("CLOUD-PROVIDER-PAYMENT");
         ServiceInstance serviceInstance = loadBalance.instances(instances);
         URI uri = serviceInstance.getUri();
         String data = restTemplate.getForObject(uri + "payment/lb", String.class);
-        if (data != null){
-            return new CommonResult<String>(222,"查询成功",data);
-        }else {
-            return new CommonResult<>(444,"查询失败");
+        if (data != null) {
+            return new CommonResult<String>(222, "查询成功", data);
+        } else {
+            return new CommonResult<>(444, "查询失败");
         }
     }
 
