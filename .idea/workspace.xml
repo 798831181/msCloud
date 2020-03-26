@@ -2,20 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5acdd85a-ae8e-43dd-8b98-b70301a184ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/sqc/cloud/config/OpenFeignConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/cloud-provider-hystrix-payment8001.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/sqc/cloud/HystrixPayment8001Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/sqc/cloud/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/sqc/cloud/services/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-comsumer-oeder80/src/main/java/com/sqc/cloud/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-comsumer-oeder80/src/main/java/com/sqc/cloud/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-comsumer-oeder80/target/classes/com/sqc/cloud/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-comsumer-oeder80/target/classes/com/sqc/cloud/controller/OrderController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/sqc/cloud/controller/OrderFeignController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/sqc/cloud/controller/OrderFeignController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/sqc/cloud/services/PaymentFeignService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/sqc/cloud/services/PaymentFeignService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-order80/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-order80/target/classes/com/sqc/cloud/controller/OrderFeignController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/target/classes/com/sqc/cloud/controller/OrderFeignController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-order80/target/classes/com/sqc/cloud/services/PaymentFeignService.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/target/classes/com/sqc/cloud/services/PaymentFeignService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/sqc/cloud/PaymentApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/sqc/cloud/PaymentApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/sqc/cloud/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/sqc/cloud/controller/PaymentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/sqc/cloud/PaymentApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/sqc/cloud/PaymentApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/sqc/cloud/controller/PaymentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/sqc/cloud/controller/PaymentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +78,7 @@
       <recent name="D:\IdeaProjects\msCloud\cloud-comsumer-oeder80\src\main\java\com\sqc\cloud" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OrderFeignMain80">
+  <component name="RunManager" selected="Application.EurekaMain7002">
     <configuration name="EurekaMain7002" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sqc.cloud.EurekaMain7002" />
       <module name="cloud-eureka-server7002" />
@@ -96,9 +92,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderFeignMain80" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sqc.cloud.OrderFeignMain80" />
-      <module name="cloud-consumer-feign-order80" />
+    <configuration name="HystrixPayment8001Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sqc.cloud.HystrixPayment8001Main" />
+      <module name="cloud-provider-hystrix-payment8001" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.sqc.cloud.*" />
@@ -109,9 +105,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderMain80" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sqc.cloud.OrderMain80" />
-      <module name="cloud-comsumer-oeder80" />
+    <configuration name="OrderFeignMain80" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sqc.cloud.OrderFeignMain80" />
+      <module name="cloud-consumer-feign-order80" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.sqc.cloud.*" />
@@ -150,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HystrixPayment8001Main" />
+        <item itemvalue="Application.EurekaMain7002" />
         <item itemvalue="Application.OrderFeignMain80" />
         <item itemvalue="Application.PaymentApplication" />
-        <item itemvalue="Application.EurekaMain7002" />
         <item itemvalue="Application.PaymentApplication8002" />
-        <item itemvalue="Application.OrderMain80" />
       </list>
     </recent_temporary>
   </component>
@@ -169,6 +165,14 @@
       <option name="presentableId" value="Default" />
       <updated>1584014265694</updated>
     </task>
+    <task id="LOCAL-00001" summary="feign日志输出">
+      <created>1585135442367</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585135442367</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -216,6 +220,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="feign日志输出" />
+    <option name="LAST_COMMIT_MESSAGE" value="feign日志输出" />
   </component>
   <component name="WindowStateProjectService">
     <state x="653" y="176" key="#EurekaMain7002" timestamp="1584184629267">
@@ -243,26 +249,34 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="707" y="222" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1584067573285" />
-    <state width="1493" height="368" key="GridCell.Tab.0.bottom" timestamp="1585130435378">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="486" key="GridCell.Tab.0.bottom" timestamp="1585202270403">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1493" height="368" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585130435378" />
     <state width="1877" height="292" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584193986615" />
-    <state width="1493" height="368" key="GridCell.Tab.0.center" timestamp="1585130435378">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="486" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1585202270403" />
+    <state width="1877" height="486" key="GridCell.Tab.0.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1585202093729" />
+    <state width="1877" height="486" key="GridCell.Tab.0.center" timestamp="1585202270403">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1493" height="368" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585130435378" />
     <state width="1877" height="292" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584193986615" />
-    <state width="1493" height="368" key="GridCell.Tab.0.left" timestamp="1585130435377">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="486" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1585202270403" />
+    <state width="1877" height="486" key="GridCell.Tab.0.center/0.40.1920.1040@0.40.1920.1040" timestamp="1585202093729" />
+    <state width="1877" height="486" key="GridCell.Tab.0.left" timestamp="1585202270403">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1493" height="368" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585130435377" />
     <state width="1877" height="292" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584193986615" />
-    <state width="1493" height="368" key="GridCell.Tab.0.right" timestamp="1585130435378">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="486" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1585202270403" />
+    <state width="1877" height="486" key="GridCell.Tab.0.left/0.40.1920.1040@0.40.1920.1040" timestamp="1585202093729" />
+    <state width="1877" height="486" key="GridCell.Tab.0.right" timestamp="1585202270403">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1493" height="368" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585130435378" />
     <state width="1877" height="292" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584193986615" />
+    <state width="1877" height="486" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1585202270403" />
+    <state width="1877" height="486" key="GridCell.Tab.0.right/0.40.1920.1040@0.40.1920.1040" timestamp="1585202093729" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1584167466783">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -292,12 +306,17 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="580" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1585004890242" />
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1585135108863">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1585135543203">
       <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1585135543203" />
+    <state x="561" y="338" key="com.intellij.ide.util.TipDialog" timestamp="1585177195351">
+      <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1585135108863" />
     <state x="449" y="247" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1585120333435" />
     <state x="561" y="298" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584180638368" />
+    <state x="561" y="338" key="com.intellij.ide.util.TipDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1585177195351" />
     <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584960370908">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -307,15 +326,17 @@
     </state>
     <state x="509" y="200" width="642" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1584965237544" />
     <state x="636" y="253" width="647" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1584188792324" />
-    <state x="293" y="191" key="new project wizard" timestamp="1585107964390">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="366" y="281" key="new project wizard" timestamp="1585200498183">
+      <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="293" y="191" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1585107964390" />
     <state x="223" y="135" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1584174453360" />
-    <state x="498" y="178" width="672" height="538" key="search.everywhere.popup" timestamp="1585127000765">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="366" y="281" key="new project wizard/0.40.1920.1040@0.40.1920.1040" timestamp="1585200498183" />
+    <state x="623" y="265" width="840" height="680" key="search.everywhere.popup" timestamp="1585200722215">
+      <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="498" y="178" width="672" height="538" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1585127000765" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1584190075074" />
+    <state x="623" y="265" width="840" height="680" key="search.everywhere.popup/0.40.1920.1040@0.40.1920.1040" timestamp="1585200722215" />
   </component>
 </project>
