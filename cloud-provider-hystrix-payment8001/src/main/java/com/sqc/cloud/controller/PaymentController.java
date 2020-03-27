@@ -3,6 +3,7 @@ package com.sqc.cloud.controller;
 import com.sqc.cloud.services.PaymentService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
@@ -25,6 +26,13 @@ public class PaymentController {
     @GetMapping(value = "/payment/error")
     public String getPaymentError() {
         return paymentService.paymentError();
+    }
+
+    @GetMapping(value = "/payment/circuit/breaker/{id}")
+    public String getPaymentCircuitBreaker(@PathVariable(value = "id") Long id) {
+        String result = paymentService.paymentCircuitBreaker(id);
+        log.info(result);
+        return result;
     }
 
 }
