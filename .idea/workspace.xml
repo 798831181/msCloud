@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5acdd85a-ae8e-43dd-8b98-b70301a184ba" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cloud-gateway9527/cloud-gateway9527.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gateway9527/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gateway9527/src/main/java/com/sqc/cloud/GatewayMain9527.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gateway9527/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/sqc/cloud/HystrixPayment8001Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/sqc/cloud/HystrixPayment8001Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +76,7 @@
       <recent name="D:\IdeaProjects\msCloud\cloud-comsumer-oeder80\src\main\java\com\sqc\cloud" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HystrixPayment8001Main">
+  <component name="RunManager" selected="Application.PaymentApplication">
     <configuration name="EurekaMain7001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sqc.cloud.EurekaMain7001" />
       <module name="cloud-eureka-server7001" />
@@ -97,22 +103,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HystrixDashBoard9001Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sqc.cloud.HystrixDashBoard9001Main" />
-      <module name="cloud-hystrix-dashboard9001" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sqc.cloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HystrixOrderMain80" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sqc.cloud.HystrixOrderMain80" />
-      <module name="cloud-consumer-hystrix-order80" />
+    <configuration name="GatewayMain9527" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sqc.cloud.GatewayMain9527" />
+      <module name="cloud-gateway9527" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.sqc.cloud.*" />
@@ -136,13 +129,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PaymentApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sqc.cloud.PaymentApplication" />
+      <module name="cloud-provider-payment8001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sqc.cloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GatewayMain9527" />
+        <item itemvalue="Application.PaymentApplication" />
         <item itemvalue="Application.HystrixPayment8001Main" />
-        <item itemvalue="Application.EurekaMain7002" />
         <item itemvalue="Application.EurekaMain7001" />
-        <item itemvalue="Application.HystrixDashBoard9001Main" />
-        <item itemvalue="Application.HystrixOrderMain80" />
+        <item itemvalue="Application.EurekaMain7002" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585570927718</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="update HystrixPayment8001Main.java">
+      <created>1585571359874</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1585571359874</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -277,7 +290,8 @@
     <MESSAGE value="update PaymentHystrixService.java" />
     <MESSAGE value="新增 服务熔断案例" />
     <MESSAGE value="搭建 HystrixDashBoard" />
-    <option name="LAST_COMMIT_MESSAGE" value="搭建 HystrixDashBoard" />
+    <MESSAGE value="update HystrixPayment8001Main.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="update HystrixPayment8001Main.java" />
   </component>
   <component name="WindowStateProjectService">
     <state x="653" y="176" key="#EurekaMain7002" timestamp="1584184629267">
@@ -293,10 +307,10 @@
     </state>
     <state x="612" y="187" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1584966536631" />
     <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585213695084" />
-    <state x="307" y="5" key="CommitChangelistDialog2" timestamp="1585570926690">
+    <state x="307" y="5" key="CommitChangelistDialog2" timestamp="1585571358790">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="307" y="5" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1585570926690" />
+    <state x="307" y="5" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1585571358790" />
     <state x="384" y="7" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585294278165" />
     <state x="384" y="7" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1585202306679" />
     <state x="132" y="79" width="1327" height="694" key="DiffContextDialog" timestamp="1585135369110">
@@ -307,31 +321,31 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="707" y="222" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1584067573285" />
-    <state width="1493" height="350" key="GridCell.Tab.0.bottom" timestamp="1585571326948">
+    <state width="1493" height="350" key="GridCell.Tab.0.bottom" timestamp="1585650617267">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="350" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585571326948" />
+    <state width="1493" height="350" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585650617267" />
     <state width="1877" height="464" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585293693989" />
     <state width="1877" height="486" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1585206988687" />
     <state width="1877" height="486" key="GridCell.Tab.0.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1585202093729" />
-    <state width="1493" height="350" key="GridCell.Tab.0.center" timestamp="1585571326948">
+    <state width="1493" height="350" key="GridCell.Tab.0.center" timestamp="1585650617267">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="350" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585571326948" />
+    <state width="1493" height="350" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585650617267" />
     <state width="1877" height="464" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585293693988" />
     <state width="1877" height="486" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1585206988687" />
     <state width="1877" height="486" key="GridCell.Tab.0.center/0.40.1920.1040@0.40.1920.1040" timestamp="1585202093729" />
-    <state width="1493" height="350" key="GridCell.Tab.0.left" timestamp="1585571326947">
+    <state width="1493" height="350" key="GridCell.Tab.0.left" timestamp="1585650617267">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="350" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585571326947" />
+    <state width="1493" height="350" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585650617267" />
     <state width="1877" height="464" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585293693988" />
     <state width="1877" height="486" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1585206988687" />
     <state width="1877" height="486" key="GridCell.Tab.0.left/0.40.1920.1040@0.40.1920.1040" timestamp="1585202093729" />
-    <state width="1493" height="350" key="GridCell.Tab.0.right" timestamp="1585571326948">
+    <state width="1493" height="350" key="GridCell.Tab.0.right" timestamp="1585650617267">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="350" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585571326948" />
+    <state width="1493" height="350" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585650617267" />
     <state width="1877" height="464" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585293693988" />
     <state width="1877" height="486" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1585206988687" />
     <state width="1877" height="486" key="GridCell.Tab.0.right/0.40.1920.1040@0.40.1920.1040" timestamp="1585202093729" />
@@ -369,33 +383,34 @@
     </state>
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1585135543203" />
     <state x="451" y="183" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1585214531747" />
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1585569840023">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="449" y="247" key="com.intellij.ide.util.TipDialog" timestamp="1585613455042">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1585569840023" />
-    <state x="449" y="247" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1585120333435" />
+    <state x="449" y="247" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1585613455042" />
     <state x="561" y="298" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585281967851" />
     <state x="561" y="338" key="com.intellij.ide.util.TipDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1585177195351" />
     <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584960370908">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1584960370908" />
-    <state x="509" y="200" width="642" height="534" key="find.popup" timestamp="1584965237544">
+    <state x="509" y="200" width="642" height="534" key="find.popup" timestamp="1585616630099">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="509" y="200" width="642" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1584965237544" />
+    <state x="509" y="200" width="642" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1585616630099" />
     <state x="636" y="253" width="647" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1584188792324" />
-    <state x="293" y="191" key="new project wizard" timestamp="1585570408829">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="293" y="200" key="new project wizard" timestamp="1585616310440">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="293" y="191" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1585570408829" />
+    <state x="293" y="200" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1585616310440" />
     <state x="223" y="135" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1584174453360" />
     <state x="366" y="250" key="new project wizard/0.0.1920.1080@0.0.1920.1080" timestamp="1585203888702" />
     <state x="366" y="281" key="new project wizard/0.40.1920.1040@0.40.1920.1040" timestamp="1585200498183" />
-    <state x="498" y="178" width="672" height="538" key="search.everywhere.popup" timestamp="1585571143186">
+    <state x="498" y="178" width="672" height="538" key="search.everywhere.popup" timestamp="1585650214997">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="498" y="178" width="672" height="538" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1585571143186" />
+    <state x="498" y="178" width="672" height="538" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1585650214997" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585286050868" />
     <state x="623" y="234" width="840" height="707" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1585207285540" />
     <state x="623" y="265" width="840" height="680" key="search.everywhere.popup/0.40.1920.1040@0.40.1920.1040" timestamp="1585200722215" />
